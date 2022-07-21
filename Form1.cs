@@ -16,5 +16,10 @@ namespace counterapp
         {
             label1.Text = (Convert.ToInt32(label1.Text) - 1).ToString();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
